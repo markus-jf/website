@@ -1,0 +1,11 @@
+<!-- NAVBAR --> <nav class="navbar navbar-default" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle Navigation</span> <i class="fa fa-bars"></i> </button> <a ng-href="{{path('HomeCtrl')}}" class="navbar-brand navbar-logo"> <img src="images/logo/jfrog_conan.png" alt="Conan Package Manager" style="width:100%"> </a> <a ng-href="{{path('HomeCtrl')}}" class="navbar-brand navbar-company-title"> <b>CONAN</b> <br> C/C++ package manager </a> </div> <!-- MAIN NAVIGATION --> <div id="main-nav" class="navbar-collapse collapse"> <a href="https://github.com/conan-io/conan" target="_new" class="hidden-sm hidden-xs"> <img style="position: absolute; top: 0; right: 0; border: 0" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a> <ul class="nav navbar-nav navbar-right"> <!--  <li>
+                    <div class="input-group input-group-lg">
+                        <form ng-submit="search(search_keyword)">
+                        <input ng-model="search_keyword" class="form-control input-lg ng-pristine ng-untouched ng-valid" type="search" placeholder="type keyword ..." ng-model="searchText" tabindex="0" aria-invalid="false" style="cursor: text;">
+                            <span class="input-group-btn">
+                            <button type="submit" class="btn btn-primary btn-lg" tabindex="0" style="cursor: pointer;"><i class="icon ion-android-search"></i> Go</button>
+                        </span>
+                        </form>
+                    </div>
+
+                </li> --> <li> <a class="btn btn-primary" id="download_btn_top" href="{{path('DownloadsCtrl')}}">DOWNLOAD</a> </li> <li> <a class="" href="https://bintray.com/conan/conan-center" target="_new">CONAN-CENTER</a> </li> <li> <a class="" ng-href="http://docs.conan.io" target="_new">DOCS</a> </li> <li> <a class="" ng-href="http://blog.conan.io" target="_new">BLOG</a> </li> </ul> </div> <!-- MAIN NAVIGATION --> </div> </nav> <!-- END NAVBAR -->
